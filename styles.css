@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Kalnia Glaze', serif;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-family: 'Kalnia Glaze', serif;
+    font-size: 2em;
+}
+
+
+
+.menu-images {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-image {
+    border: 2px solid #333;
+    border-radius: 0px 50px 0px 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
